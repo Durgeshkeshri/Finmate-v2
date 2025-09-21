@@ -30,7 +30,7 @@ GEMINI_API_KEY = "AIzaSyAIiwdBBGPpiG1PgztbQI34XIQxHPhcpDc"
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="AI Financial Advisor - Enhanced",
+    page_title="Finmate",
     page_icon="🤖💰",
     layout="wide",
     initial_sidebar_state="expanded"
