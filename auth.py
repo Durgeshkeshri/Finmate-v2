@@ -203,7 +203,7 @@ def show_auth_interface(auth_manager: AuthenticationManager) -> Optional[Dict]:
     st.markdown("""
     <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
                 padding: 40px; border-radius: 15px; color: white; text-align: center; margin: 20px 0;">
-        <h1>Welcome to AI Financial Advisor</h1>
+        <h1>Welcome to Finmate an AI Financial Advisor</h1>
         <h3>Multi-Agent Financial Analysis System</h3>
         <p>Please sign in or create an account to continue</p>
     </div>
