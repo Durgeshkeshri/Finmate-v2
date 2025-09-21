@@ -94,13 +94,13 @@ class EnhancedStreamlitApp:
         """, unsafe_allow_html=True)
         
         # Navigation tabs
-        tab1, tab2, tab3, tab4 = st.tabs(["📊 Financial Analysis", "💬 AI Assistant", "📈 Data History", "⚙️ Account"])
+        tab1, tab3, tab4 = st.tabs(["📊 Financial Analysis","📈 Data History", "⚙️ Account"])
         
         with tab1:
             asyncio.run(self.show_financial_analysis_tab(user))
         
-        with tab2:
-            self.show_ai_assistant_tab(user)
+        # with tab2:
+        #     self.show_ai_assistant_tab(user)
         
         with tab3:
             self.show_data_history_tab(user)
