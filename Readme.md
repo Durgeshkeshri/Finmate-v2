@@ -35,7 +35,7 @@ Finmate uses **multi-agent AI architecture** to act like a 24/7 financial mentor
 ✅ Is **free, always available, and scalable worldwide**  
 <br>
 
-```
+
 | Component         | Technology        |
 | ----------------- | ----------------- |
 | **AI Engine**     | Google Gemini Pro |
@@ -43,7 +43,7 @@ Finmate uses **multi-agent AI architecture** to act like a 24/7 financial mentor
 | **Database**      | MongoDB Atlas     |
 | **Frontend**      | Streamlit         |
 | **Visualization** | Plotly + Pandas   |
-```
+
 
 <br>
 
