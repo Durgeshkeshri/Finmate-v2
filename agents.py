@@ -26,8 +26,10 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Configuration
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyAIiwdBBGPpiG1PgztbQI34XIQxHPhcpDc"
-MONGODB_URL = "mongodb+srv://durgeshkeshri7:Durgesh1027@cluster0.ezhdt7p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+MONGODB_URL = os.getenv("MONGODB_URL")
+
+# Initialize Google Generative AI)
 
 genai.configure(api_key=GEMINI_API_KEY)
 

@@ -1,5 +1,5 @@
 """
-Enhanced AI Financial Advisor - Main Streamlit Application
+Finmate AI Financial Advisor - Main Streamlit Application
 Fixed version addressing AI chat initialization and data analysis issues
 """
 
@@ -11,6 +11,8 @@ from datetime import datetime, date
 from typing import Dict, List, Any, Optional
 import plotly.graph_objects as go
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
 # Import our custom modules
 from agents import (
@@ -25,8 +27,8 @@ from mcp_integration import MCPDataProcessor
 from ai_chat import AIFinancialChatbot, display_chat_interface
 
 # Configuration
-MONGODB_URL = "mongodb+srv://durgeshkeshri7:Durgesh1027@cluster0.ezhdt7p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-GEMINI_API_KEY = "AIzaSyAIiwdBBGPpiG1PgztbQI34XIQxHPhcpDc"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+MONGODB_URL = os.getenv("MONGODB_URL")
 
 # Configure Streamlit page
 st.set_page_config(
